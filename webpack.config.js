@@ -36,6 +36,7 @@ module.exports = {
     splitChunks: {
       chunks: "all",
     },
+    usedExports: true,
   },
   plugins: [
     new CleanWebpackPlugin(), // To clean the build directory
